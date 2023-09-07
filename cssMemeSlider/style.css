@@ -98,6 +98,7 @@ input {
   height: 1.5rem;
   border-radius: 50%;
   cursor: auto;
+  pointer-events: none;
   background-color: #6a34a9;
 }
 
@@ -187,6 +188,8 @@ input {
   .slider__text {
     order: 2;
     padding: 0;
+    width: 100%;
+    text-align: left;
     font-size: 1.5rem;
   }
 
