@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme slider</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__wrapper">
+                <img src="img/mem-1.jpg" alt="mem-1">
+                <img src="img/mem-2.jpg" alt="mem-2">
+                <img src="img/mem-3.jpg" alt="mem-3">
+                <img src="img/mem-4.jpg" alt="mem-4">
+                <img src="img/mem-5.jpg" alt="mem-5">
+            </div>
+            <div class="slider__bottom">
+                <span class="slider__text" data-target="one">Подборка</span>
+                <span class="slider__text" data-target="two">Рандомных</span>
+                <span class="slider__text" data-target="three">Мемов</span>
+                <span class="slider__text" data-target="four">Для</span>
+                <span class="slider__text" data-target="five">Тебя ^_^</span>
+                <div class="slider__bottom-controls">
+                    <label class="slider__label">
+                        <span class="slider__checkbox">
+                            <span class="slider__checked"></span>
+                        </span>
+                        <input type="radio" name="controls" data-path="one" class="slider__input" checked>
+                    </label>
+                    <label class="slider__label">
+                        <span class="slider__checkbox">
+                            <span class="slider__checked"></span>
+                        </span>
+                        <input type="radio" name="controls" data-path="two" class="slider__input">
+                    </label>
+                    <label class="slider__label">
+                        <span class="slider__checkbox">
+                            <span class="slider__checked"></span>
+                        </span>
+                        <input type="radio" name="controls" data-path="three" class="slider__input">
+                    </label>
+                    <label class="slider__label">
+                        <span class="slider__checkbox">
+                            <span class="slider__checked"></span>
+                        </span>
+                        <input type="radio" name="controls" data-path="four" class="slider__input">
+                    </label>
+                    <label class="slider__label">
+                        <span class="slider__checkbox">
+                            <span class="slider__checked"></span>
+                        </span>
+                        <input type="radio" name="controls" data-path="five" class="slider__input">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
